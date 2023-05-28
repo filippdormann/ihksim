@@ -1,14 +1,14 @@
-# @filippdormann/mobileidevices
+# @@filippdormann/ihksim
 npm package for parsing mobile device code names to readable device infos
 
 ## Library Usage
 ### Install
 ```
-pnpm i @filippdormann/mobileidevices
+pnpm i @@filippdormann/ihksim
 ```
 ## Usage
 ```
-import { getDeviceInfoByIdentifier } from "@filippdormann/mobileidevices"
+import { getDeviceInfoByIdentifier } from "@@filippdormann/ihksim"
 
 console.log(getDeviceInfoByIdentifier("iPhone15,3"));
 console.log(getDeviceInfoByIdentifier("LG-H815"));

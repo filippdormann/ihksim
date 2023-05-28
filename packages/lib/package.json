@@ -1,8 +1,8 @@
 {
-  "name": "@flippdormann/mobileidevices",
+  "name": "@filippdormann/ihksim",
   "version": "0.0.3",
   "main": "index.js",
-  "repository": "https://github.com/flippdormann/mobileidevices",
+  "repository": "https://github.com/filippdormann/ihksim",
   "author": "Filipp Dormann <hi@philipp.run>",
   "license": "MIT",
   "type": "module",
@@ -12,9 +12,5 @@
       "import": "./index.js"
     },
     "./*": "./*"
-  },
-  "dependencies": {
-    "@philippdormann/appledevices": "^0.0.6",
-    "android-device-list": "^1.2.9"
   }
 }
